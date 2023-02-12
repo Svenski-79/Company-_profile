@@ -1,0 +1,57 @@
+.about{
+    background: linear-gradient(-45deg, #fe7316, #fe8516, #fe6708, #fe841b);
+	background-size: 400% 400%;
+    max-width: fit-content;
+    position: relative;
+    top: 370px;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+.about h1{
+    /* background-color: aqua; */
+    position: relative;
+    width: 25%;
+    padding: 4rem 25px 0px 15px;
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+.about p{
+    /* background-color: aqua; */
+    position: relative;
+    left: 5%;
+    font-size: 1.1rem;
+    width: 35%;
+    text-align: justify;
+    padding: 0px 0px 6rem 0px;
+}
+
+.value{
+    background-color: rgb(255, 255, 255);
+    max-width: fit-content;
+    position: relative;
+    top: 400px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.value h2{
+    /* background-color: aqua; */
+    position: relative;
+    font-size: 3.7rem;
+    color: #5E0606;
+    max-width: 100%;
+    text-align: center;
+}
+
+.value p{
+    /* background-color: aqua; */
+    max-width: 63%;
+    left: 17%;
+    position: relative;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 0 3rem 0;
+    font-style: italic;
+}

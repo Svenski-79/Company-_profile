@@ -1,25 +1,23 @@
 
-/* .headline{
-    overflow: hidden;
-} */
+ /* .headline{
+     background-color: aqua; 
+ }*/
 .headline h1{
-    overflow: hidden;
     /* background-color: aqua;  */
     font-family: 'Montserrat',sans-serif;
     font-weight: 700;
     font-size: 70px;
     position: relative; 
-    top: 100px;
-    left: 650px;
+    top: 160px;
+    left: 40%;
     color: #5E0606;
 }
 
 .headline p{
-    overflow: hidden;
     /* background-color: #8ac6fe; */
     position: relative;
-    left: 670px;
-    top: 110px;
+    left: 615px;
+    top: 150px;
     font-size: 25px;
     font-family: 'poppins',sans-serif;
 }
