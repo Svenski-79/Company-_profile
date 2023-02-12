@@ -1,0 +1,25 @@
+
+/* .headline{
+    overflow: hidden;
+} */
+.headline h1{
+    overflow: hidden;
+    /* background-color: aqua;  */
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    position: relative; 
+    top: 100px;
+    left: 650px;
+    color: #5E0606;
+}
+
+.headline p{
+    overflow: hidden;
+    /* background-color: #8ac6fe; */
+    position: relative;
+    left: 670px;
+    top: 110px;
+    font-size: 25px;
+    font-family: 'poppins',sans-serif;
+}

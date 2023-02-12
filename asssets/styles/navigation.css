@@ -1,0 +1,19 @@
+nav{
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+nav a button{
+    position: relative;
+    left:900px;
+    background-color: #ffff;
+    border: none;
+    outline: none;
+    color: #100f0f;
+    text-align: center;
+    padding: 29px 15px 0px 15px;
+    font-size: small;
+    font-family: 'Montserrat',sans-serif;
+}
