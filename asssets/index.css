@@ -1,4 +1,36 @@
-body{
-    margin: 0;
-    overflow-x: hidden;
+@font-face {
+  font-family: "roboto";
+  src: url("./Fonts/Roboto-Regular.ttf");
+  font-weight: 500;
+  font-style: medium;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+li {
+  list-style: none;
 }
