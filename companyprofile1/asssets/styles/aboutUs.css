@@ -1,7 +1,6 @@
 .about{
-    background: linear-gradient(-45deg, #fe7316, #fe8516, #fe6708, #fe841b);
+    background: linear-gradient(51deg,#EC9F05,#FF4E00);
 	background-size: 400% 400%;
-    max-width: fit-content;
     position: relative;
     top: 370px;
     font-family: 'Poppins',sans-serif;
@@ -12,11 +11,13 @@
     /* background-color: aqua; */
     position: relative;
     width: 25%;
-    padding: 4rem 25px 0px 15px;
-    font-size: 60px;
+    padding: 4rem 0rem 0rem 0.6rem;
+    font-size: 5rem;
+    left: 4.5%;
     text-align: center;
     
 }
+
 
 .about p{
     /* background-color: aqua; */
