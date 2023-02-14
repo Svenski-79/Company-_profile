@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asssets/index.css">
     <link rel="stylesheet" href="asssets/styles/navigation.css">
     <link rel="stylesheet" href="asssets/styles/landing.css">
     <link rel="stylesheet" href="asssets/styles/aboutUs.css">
@@ -13,15 +14,17 @@
 </head>
 
 <body>
-    <header>
+    <header class="navigation">
         <nav class="navbar">
-            <a href="index.html">
+            <a href="index.html" class="logo">
                 <h1>FIRETECH</h1>
             </a>
-            <a href="#home"><button id="home">Home</button></a>
-            <a href="#about"><button>About Us</button></a>
-            <a href="#services"><button>Products/Services</button></a>
-            <a href="#admin@firetechthermals.in"><button>Contact Us</button></a>
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#home">Home</a></li>
+                <li class="navigation__item"><a href="#about">About Us</a></li>
+                <li class="navigation__item"><a href="#services">Products/Services</a></li>
+                <li class="navigation__item"><a href="#admin@firetechthermals.in">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
     <div>
