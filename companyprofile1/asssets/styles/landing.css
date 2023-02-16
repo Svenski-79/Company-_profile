@@ -2,22 +2,50 @@
  /* .headline{
      background-color: aqua; 
  }*/
+
+ .public{
+    display: flex;
+ }
+
+.bgImage{
+    height: 130vh;
+    width: 100%;
+}
+
+.logoSpace{
+    width: 25%;
+    height: 25vh;
+}
+
+ .headline{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 47%;
+    margin-top: 19%;
+    /* background-color: aquamarine; */
+ }
+ 
 .headline h1{
     /* background-color: aqua;  */
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 4.5rem;
     position: relative; 
-    top: 160px;
-    left: 40%;
-    color: #5E0606;
+    color: #f0e8e8;
 }
 
 .headline p{
     /* background-color: #8ac6fe; */
     position: relative;
-    left: 615px;
-    top: 150px;
-    font-size: 25px;
-    font-family: 'poppins',sans-serif;
+    width: max-content;
+    font-size: 1.1rem;
+    margin-top: 6%;
+    margin-left: 13%;
+    color: coral;
+    border-radius: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0.6rem 3rem 0.6rem 3rem;
+    background-color: azure;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

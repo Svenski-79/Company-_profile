@@ -1,40 +1,50 @@
-.about{
-    background: linear-gradient(51deg,#EC9F05,#FF4E00);
-	background-size: 400% 400%;
+.space{
+    display: flex;
+}
+.container{
+    width: 50%;
+    height: 100vh;
+    background-color: antiquewhite;
     position: relative;
-    top: 370px;
     font-family: 'Poppins',sans-serif;
+    padding: 4rem 0rem 4rem 0rem;
 
 }
 
-.about h1{
+.container h1{
     /* background-color: aqua; */
     position: relative;
-    width: 25%;
-    padding: 4rem 0rem 0rem 0.6rem;
-    font-size: 5rem;
-    left: 4.5%;
+    width: 100%;
+    margin-right: 0;
+    font-size: 4.5rem;
+    font-weight: 20;
+    color: #f1390b;
     text-align: center;
     
 }
 
 
-.about p{
+.container p{
     /* background-color: aqua; */
     position: relative;
-    left: 5%;
-    font-size: 1.1rem;
-    width: 35%;
+    left: 15%;
+    font-size: 0.8rem;
+    width: 70%;
     text-align: justify;
-    padding: 0px 0px 6rem 0px;
+    padding: 3rem 0px 6rem 0px;
+}
+
+.image1 {
+    height: 100vh;
+    width: 50%;
 }
 
 .value{
     background-color: rgb(255, 255, 255);
     max-width: fit-content;
     position: relative;
-    top: 400px;
     font-family: 'Poppins',sans-serif;
+    padding: 5rem 0 5rem 0;
 }
 
 .value h2{
