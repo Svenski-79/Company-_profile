@@ -1,0 +1,55 @@
+.ourProducts{
+    background: linear-gradient(90deg, rgba(237,38,6,1) 0%, rgba(246,94,12,1) 0%, rgba(255,158,0,1) 100%);
+    position: relative;
+    width: 100%;
+    padding: 5rem 0 5rem 0;
+    font-family: "poppins", sans-serif;
+}
+
+
+
+.ourProducts h1{
+    padding: 3rem 2rem 3rem 2rem;
+    position: relative;
+    font-size: 4.5rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.header{
+    position: relative;
+}
+
+.box{
+    position: relative;
+    width: 80%;
+    padding: 2rem 3rem 2rem 6rem;
+    display: flex;
+}
+
+.product{
+    position: relative;
+    height: 40vh;
+    max-width: 100%;
+    width: 40%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.boxContent{
+    position: relative;
+    max-width: 100%;
+    width: 50%;
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.box1{
+    position: relative;
+    width: 73%;
+    padding: 2rem 1rem 2rem 2rem;
+    display: flex;
+    left: 27%;
+}

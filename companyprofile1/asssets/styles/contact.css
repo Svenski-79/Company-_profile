@@ -1,17 +1,18 @@
 .contact{
-    position: relative;
-    background: linear-gradient( -45deg,#B91616,#560b0b);
-    top: 500px; 
+    background: linear-gradient( -45deg,#B91616,#560b0b); 
     font-family: 'Poppins',sans-serif;
     padding: 0 0 2.5rem 0;
 }
 
 .contact h1{
+    padding: 12rem 0 0 0 ;
+    color: aliceblue;
     font-size: 3.5rem;
     padding: 6rem 3rem 4rem 3.5rem;
 }
 
 .contact p{
+    color: aliceblue;
     font-size: 1rem;
     padding: 0rem 3rem 0.1rem 3.5rem; 
 }

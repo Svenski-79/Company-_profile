@@ -5,23 +5,28 @@
 
  .public{
     display: flex;
+    background: linear-gradient(90deg, rgba(237,38,6,1) 0%, rgba(246,94,12,1) 0%, rgba(255,158,0,1) 100%);
+    height: 100vh;
  }
 
-.bgImage{
-    height: 130vh;
-    width: 100%;
-}
+ .log{
+    margin-top: 12%;
+    margin-left: 8%;
+ }
 
-.logoSpace{
-    width: 25%;
-    height: 25vh;
-}
+ .logoSpace{
+    height: 37vh;
+    margin-left: 8%;
+    margin-top: 17%;
+    transform: rotate(45deg);
+ }
 
  .headline{
-    position: absolute;
-    width: 50%;
+    position: relative;
+    width: 60%;
     top: 0;
-    left: 47%;
+    left: 8%;
+    padding: 0 0 5rem 5rem;
     margin-top: 19%;
     /* background-color: aquamarine; */
  }
